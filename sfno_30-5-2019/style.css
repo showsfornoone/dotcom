@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#keithsMeMaw{
+	width:100vw;
+	height:100vh;
+}
+
+#keithsMum{
+	width: 200px;
+	height: 150px;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 33.33%;
+  	left: 50%;
+}
+
+#keithFamilyPic{
+	border-radius: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+.keithFamilyPic{
+	background-image: url(images/itsChaos.jpg);
+	background-size: contain;
+	
+	-webkit-transition: background 100ms ease-in 100ms; 
+    -moz-transition: background 100ms ease-in 100ms;
+    -o-transition: background 100ms ease-in 100ms;
+    transition: background 100ms ease-in 100ms;
+}
+
+.soundCloudLogo{
+	background-image: url(images/soundCloudLogo.jpg);
+	background-size: contain;
+	
+	-webkit-transition: background 100ms ease-in 100ms; 
+    -moz-transition: background 100ms ease-in 100ms;
+    -o-transition: background 100ms ease-in 100ms;
+    transition: background 100ms ease-in 100ms;
+}
+
+.youtubeLogo{
+	background-image: url(images/youtubeLogo.png);
+	background-size: contain;
+	
+	-webkit-transition: background 100ms ease-in 100ms; 
+    -moz-transition: background 100ms ease-in 100ms;
+    -o-transition: background 100ms ease-in 100ms;
+    transition: background 100ms ease-in 100ms;
+}
+
+.vimeoLogo{
+	background-image: url(images/vimeoLogo2.png);
+	background-size: contain;
+	
+	-webkit-transition: background 100ms ease-in 100ms; 
+    -moz-transition: background 100ms ease-in 100ms;
+    -o-transition: background 100ms ease-in 100ms;
+    transition: background 100ms ease-in 100ms;
+}
+
+.instagramLogo{
+	background-image: url(images/instagramLogo4.png);
+	background-size: contain;
+	
+	-webkit-transition: background 100ms ease-in 100ms; 
+    -moz-transition: background 100ms ease-in 100ms;
+    -o-transition: background 100ms ease-in 100ms;
+    transition: background 100ms ease-in 100ms;
+}
+
+
+#keithsDog{
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+}
+
+#keithsStump{
+	width: 350;
+	height: 400px;
+}
+
+#keithjr{
+}
+
+#keith{
+}
+
+#keithsSister{
+}
+
+#keithSisterCousin{
+}
+
+.opacityHover:hover {
+	color: rgba(100,100,100,1.00);
+}
+
+.earlGrey{
+	font-family: 'Lato', sans-serif;
+	border-style: none;
+	border: 0;
+	border-width: 0px;
+	width: 100px;
+	height: 25px;
+	margin-left:auto;
+	margin-right:auto;
+	display:none;
+}
