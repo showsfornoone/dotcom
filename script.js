@@ -3,6 +3,8 @@
 $(document).ready(function(){
   "use strict";
 
+
+	
 $("#shows").hover(
 	function(){$("#keithFamilyPic").removeClass("keithFamilyPic").addClass("soundCloudLogo");}, 
 	function(){$("#keithFamilyPic").addClass("keithFamilyPic").removeClass("soundCloudLogo");}
